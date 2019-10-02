@@ -1,10 +1,30 @@
+/* @font-face{
+    font-family: 'Arvo', serif;
+    src: url('../font/Arvo/Arvo-Regular.ttf');
+
+    font-family: 'Open Sans', sans-serif;
+    src: url('../font/Open_Sans/OpenSans-Regular.ttf');
+} */
+
 body{
     background-image: url("../img/bananas.png");
     background: repeat;
 }
 
+.navbar-brand{
+    background: grey;
+    padding: 5px 5px;
+
+    font-family: 'Arvo', serif;
+}
+.container{
+    max-width: 960px;
+}
+
 .content-title{
     border-bottom:3px solid black;
     padding-bottom: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0px;
+
+    font-family: 'Arvo', serif;
 }
