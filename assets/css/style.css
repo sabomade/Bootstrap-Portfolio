@@ -19,6 +19,7 @@ body{
 }
 .container{
     max-width: 960px;
+    flex-wrap: wrap;
 }
 
 .content-title{
@@ -27,4 +28,7 @@ body{
     margin: 10px 0px;
 
     font-family: 'Arvo', serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
 }
