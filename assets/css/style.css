@@ -1,0 +1,10 @@
+body{
+    background-image: url("../img/bananas.png");
+    background: repeat;
+}
+
+.content-title{
+    border-bottom:3px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
