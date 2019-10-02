@@ -7,8 +7,7 @@
 } */
 
 body{
-    background-image: url("../img/bananas.png");
-    background: repeat;
+    background: url("../img/bananas.png") repeat;
 }
 
 .navbar-brand{
@@ -17,11 +16,17 @@ body{
 
     font-family: 'Arvo', serif;
 }
+/* .container-nav{
+    max-width: 960px;
+    flex-wrap: wrap;
+} */
 .container{
     max-width: 960px;
     flex-wrap: wrap;
-}
+    /* background: lightgray;
 
+    margin: 10px 0px; */
+}
 .content-title{
     border-bottom:3px solid black;
     padding-bottom: 10px;
@@ -29,6 +34,10 @@ body{
 
     font-family: 'Arvo', serif;
 }
+.rounded {
+    margin: 0px 15px 5px 0px;
+}
+
 p{
     font-family: 'Open Sans', sans-serif;
 }
