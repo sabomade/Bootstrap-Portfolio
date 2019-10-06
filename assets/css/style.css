@@ -8,24 +8,23 @@
 
 body{
     background: url("../img/bananas.png") repeat;
+    /* text-align:left; */
+}
+
+.navbar, .bg-secondary{
+    height:55px;
 }
 
 .navbar-brand{
-    background: grey;
-    padding: 5px 5px;
-
     font-family: 'Arvo', serif;
 }
-/* .container-nav{
-    max-width: 960px;
-    flex-wrap: wrap;
-} */
 .container{
     max-width: 960px;
     flex-wrap: wrap;
-    /* background: lightgray;
-
-    margin: 10px 0px; */
+}
+.content{
+    margin: 20px 0px 100px 0px;
+    padding-bottom: 20px;
 }
 .content-title{
     border-bottom:3px solid #ffc107;
@@ -38,10 +37,64 @@ body{
     margin: 0px 15px 5px 0px;
 }
 
+img{
+    width: 200px;
+    height: 200px;
+}
+.projects{
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+}
+.proj-img{
+    position: relative;
+    margin: 10px 10px 20px 10px;
+}
 p{
     font-family: 'Open Sans', sans-serif;
 }
-/* .footer{
-    justify-content: center;
+.proj-name{
+    position: absolute;
+    bottom: 20px;
+    margin: 0px;
+    padding: 10px;
+    width: 200px;
+    
+    background: #FFC300;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.social{
+    display: block;
+    margin: 10px auto;
+}
+.social a{
+    margin: 0px 30px;
+}
+.social img{
+    width: 32px;
+    height: 32px;
+}
+.credit a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+.credit p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+.fixed-bottom{
+    border-top: 3px solid #A5A5A4;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
     font-size: 15px;
-} */
+}
