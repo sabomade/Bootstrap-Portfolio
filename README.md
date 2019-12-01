@@ -5,7 +5,7 @@ My basic portfolio created using Bootstrap
 
 ## Built With
 * Bootstrap - responsive framework for web
-* [Google Fonts] (https://fonts.google.com/) - open source typography catalog
+* [Google Fonts](https://fonts.google.com/) - open source typography catalog
 
 ## Versioning & Author
 This is the only version and is maintained by me, [sabomade](https://github.com/sabomade).
