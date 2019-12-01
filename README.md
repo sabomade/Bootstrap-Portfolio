@@ -4,7 +4,7 @@ My basic portfolio created using Bootstrap
 ![Image of Bootstrap Portfolio](assets/img/bootstrap-portfolio.png)
 
 ## Built With
-* Bootstrap - responsive framework for web
+* [Bootstrap](https://getbootstrap.com/) - responsive framework for web
 * [Google Fonts](https://fonts.google.com/) - open source typography catalog
 
 ## Versioning & Author
