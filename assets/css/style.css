@@ -22,6 +22,10 @@ body{
     max-width: 960px;
     flex-wrap: wrap;
 }
+.navRow{
+    width: 100%;
+    margin: 0;
+}
 .content{
     margin: 20px 0px 100px 0px;
     padding-bottom: 20px;
